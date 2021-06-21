@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IQ CLICKER</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script src="https://kit.fontawesome.com/664bc80b22.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/png" href="dist/img/brain (1).svg" />
+    <link rel="stylesheet" href="dist/css/style.css" />
+</head>
+
+<body>
+    <section class="container">
+        <!-- LEFT -->
+        <div class="left-page">
+            <h3 class="info">Info</h3>
+            <div class="yop">
+                <h4 class="ammountIQ"></h4>
+                <br />
+                <h4 class="ammountClick"></h4>
+                <br />
+                <h4 class="ammountBuy"></h4>
+                <br />
+                <img class="img-size" onclick="doCheat()" src="dist/img/steroids.svg"></img>
+                <br>
+                <br>
+                <b> <i> <h3>By Slim & Pablo</h3></i></b>
+                <br>
+                <button class="clickAndCollect" onclick="addGold()">click</button>
+            </div>
+        </div>
+        <!-- MIDDLE -->
+        <div class="middle-page">
+            <h3 class="brain" onclick="clickBrain()">Big Brain</h3>
+            <br />
+            <br />
+            <section id="gold">
+                <h2 class="iqText"></h2>
+            </section>
+            <section id="gps">
+                <h4 class="IQPS"></h4>
+            </section>
+            <a href="javascript:playclip();">
+                <img onclick="addGold()" class="img-brain" src="dist/img/brain (1).svg" alt="" />
+            </a>
+        </div>
+        <!-- RIGHT -->
+        <div class="right-page">
+            <h3 class="shop">Store</h3>
+            <div class="row">
+                <p>Buy</p>
+                <p>1</p>
+                <p>10</p>
+                <p>100</p>
+            </div>
+            <br />
+            <a href="javascript:playclip();">
+                <div class="case" onclick="doNeuron()">
+                    <img class="img-size" src="dist/img/neuron.svg" alt="" />
+                    <div class="col">
+                        <h1 class="title"></h1>
+                        <small class="price"></small>
+                    </div>
+                    <div class="qty-style">
+                        <h3 class="qty"></h3>
+                    </div>
+                </div>
+                <br />
+                <div class="case" onclick="doSynapse()">
+                    <img class="img-size" src="dist/img/synapse.svg" alt="" />
+                    <div class="col">
+                        <h1 class="title1"></h1>
+                        <small class="price1"></small>
+                    </div>
+                    <div class="qty-style">
+                        <h3 class="qty1"></h3>
+                    </div>
+                </div>
+                <br />
+                <div class="case" onclick="doDopamine()">
+                    <img class="img-size" src="dist/img/candom.svg" alt="" />
+                    <div class="col">
+                        <h1 class="title2"></h1>
+                        <small class="price2"></small>
+                    </div>
+                    <div class="qty-style">
+                        <h3 class="qty2"></h3>
+                    </div>
+                </div>
+                <br />
+                <div class="case" onclick="doBlood()">
+                    <img class="img-size" src="dist/img/blood.svg" alt="" />
+                    <div class="col">
+                        <h1 class="title3"></h1>
+                        <small class="price3"></small>
+                    </div>
+                    <div class="qty-style">
+                        <h3 class="qty3"></h3>
+                    </div>
+                </div>
+                <br />
+                <div class="case" onclick="doNerve()">
+                    <img class="img-size" src="dist/img/nerves.svg" alt="" />
+                    <div class="col">
+                        <h1 class="title4"></h1>
+                        <small class="price4"></small>
+                    </div>
+                    <div class="qty-style">
+                        <h3 class="qty4"></h3>
+                    </div>
+                </div>
+                <br />
+                <div class="case" onclick="doMuscles()">
+                    <img class="img-size" src="dist/img/muscles.svg" alt="" />
+                    <div class="col">
+                        <h1 class="title5"></h1>
+                        <small class="price5"></small>
+                    </div>
+                    <div class="qty-style">
+                        <h3 class="qty5"></h3>
+                    </div>
+                </div>
+                <br />
+                <div class="case" onclick="doWater()">
+                    <img class="img-size" src="dist/img/water.svg" alt="" />
+                    <div class="col">
+                        <h1 class="title6"></h1>
+                        <small class="price6"></small>
+                    </div>
+                    <div class="qty-style">
+                        <h3 class="qty6"></h3>
+                    </div>
+                </div>
+                <br />
+                <div class="case" onclick="doBrain()">
+                    <img class="img-size" src="dist/img/brain (1).svg" alt="" />
+                    <div class="col">
+                        <h1 class="title7"></h1>
+                        <small class="price7"></small>
+                    </div>
+                    <div class="qty-style">
+                        <h3 class="qty7"></h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <script src="dist/js/script.js"></script>
+
+    <audio>
+      <source src="click.mp3" type="audio/mpeg" />
+      <source src="click.ogg" type="audio/ogg" />
+    </audio>
+    <div id="sounddiv">
+        <bgsound id="sound" />
+    </div>
+</body>
+
+</html>e
